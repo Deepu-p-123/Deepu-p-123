@@ -1,7 +1,7 @@
 ## Hi, I'm Deepu 👋
 
 🎓 MSc Computer Science Student at Kerala University  
-💻 MERN Stack Developer & Data Science Enthusiast  
+💻 Data Science Mentor  
 📊 Interested in AI, Machine Learning, Data Analysis, NLP, and Financial Analytics  
 
 ---
