@@ -18,7 +18,7 @@
 - 💼 Hands-on experience through internships at **Edunet Foundation** and **TechMindz**
 - 🧑‍🏫 Currently mentoring **15+ students** in Python, OOP, and Data Structures at Transeduverse
 - 📍 Based in **Thiruvananthapuram, Kerala** — available for immediate joining
-- 🔭 Currently building a **production-grade smart contract vulnerability detection pipeline** using Wide & Deep Neural Networks (WIDENNET)
+- 🔭 Currently building production-grade AI systems with **Docker**, **FastAPI**, and **LLMs**
 
 ---
 
@@ -35,19 +35,24 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 ### 🧠 NLP & AI
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
 ![FLAN-T5](https://img.shields.io/badge/FLAN--T5-4285F4?style=flat-square&logo=google&logoColor=white)
+![Claude API](https://img.shields.io/badge/Anthropic%20Claude-6B46C1?style=flat-square&logo=anthropic&logoColor=white)
+
+### ☁️ MLOps & Deployment
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 ### 📊 Data Science
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 ### 🗄️ Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
@@ -61,58 +66,63 @@
 
 ---
 
-## 💼 Experience
-
-### 🤖 AI & ML Intern — Edunet Foundation *(Remote, 2025)*
-- Built a production-ready **AI-powered resume generator** using **FLAN-T5** with NLP-based semantic job description matching
-- Designed structured **prompt pipelines** using Python and OOP best practices for automated document generation
-- Deployed a **Streamlit web app** with automated PDF export; documented full pipeline for stakeholder review
-
-### 📊 Data Science Intern — TechMindz *(Onsite, Kerala, 2023)*
-- Performed end-to-end **EDA and feature engineering** on structured datasets with 10,000+ records using Python and Pandas
-- Built and evaluated **classification models** using Scikit-learn; analysed precision, recall, and F1-score to select optimal models
-- Communicated findings through clear stakeholder reports
-
-### 🧑‍🏫 Python Tutor — Transeduverse *(Remote, 2025–Present)*
-- Delivering structured training in **Python, OOP, and Data Structures** to 15+ students
-- Mentoring students on problem-solving and algorithmic thinking
-
----
-
 ## 🚀 Featured Projects
 
-### 🔐 [WIDENNET Pipeline — Smart Contract Vulnerability Detection](https://github.com/Deepu-p-123/widennet-pipeline)
-> MSc Final Project | TensorFlow · Keras · Word2Vec · Python · evmdasm
+### 🔭 [CodeLens — AI GitHub Repository Analyser](https://github.com/Deepu-p-123/codelens)
+> Python · Anthropic Claude API · Streamlit · Mermaid.js · GitHub REST API · [🌐 Live App](https://codelens.streamlit.app)
 
-End-to-end production pipeline for detecting **reentrancy** and **timestamp dependence** vulnerabilities in Ethereum smart contracts at the bytecode level. Achieved **89% accuracy** and **98% precision** using a Wide & Deep neural network with Word2Vec opcode embeddings.
+AI-powered tool that takes any public GitHub URL and instantly generates a **plain-English explanation**, structured **architecture breakdown**, **data flow walkthrough**, and a **live Mermaid architecture diagram**. Integrated Claude Sonnet API with real-time streaming output, analysing up to 20 source files per repository. Deployed on Streamlit Cloud.
 
 ---
 
-### ⚖️ BNS Legal RAG Assistant
+### 🐳 [WidenNet — Dockerised Smart Contract Vulnerability Detector](https://github.com/Deepu-p-123/widennet-docker)
+> Python · TensorFlow · Keras · Word2Vec · FastAPI · Docker · Docker Compose · [🐳 Docker Hub](https://hub.docker.com/r/deepuprakash/widennet)
+
+Wide & Deep neural network for detecting vulnerabilities in Ethereum smart contracts, achieving **89% accuracy**, **0.92 F1-score**, and **<4% false positive rate** on the IJCAI 2020 dataset. Fully containerised with Docker Compose — **FastAPI REST API** on port 8001 and **HTML web UI** on port 8000. Published to Docker Hub; deployable with a single command.
+
+```bash
+docker pull deepuprakash/widennet
+docker compose up
+```
+
+---
+
+### ⚖️ [BNS Legal RAG Assistant](https://github.com/Deepu-p-123/bns-rag-assistant)
 > Python · FAISS · Sentence-Transformers · FLAN-T5 · Streamlit
 
-Built a **Retrieval-Augmented Generation (RAG)** system for querying the Bharatiya Nyaya Sanhita. Implemented FAISS-based vector search with dense embeddings and an interactive Streamlit UI.
+Built a **Retrieval-Augmented Generation (RAG)** system for querying the Bharatiya Nyaya Sanhita. Implemented FAISS-based vector search with dense embeddings for semantic document retrieval and an interactive Streamlit UI.
 
 ---
 
-### 📄 AI Resume & Cover Letter Generator
+### 📄 [AI Resume & Cover Letter Generator](https://github.com/Deepu-p-123/ai-resume-generator)
 > Python · FLAN-T5 · Streamlit · NLP
 
 End-to-end NLP application generating **ATS-optimised resumes** and cover letters using transformer-based semantic matching between job descriptions and candidate profiles.
 
 ---
 
-### 📚 Research Paper Recommendation System
+### 📚 [Research Paper Recommendation System](https://github.com/Deepu-p-123/research-paper-recommendation)
 > Python · TF-IDF · Cosine Similarity
 
-Content-based recommendation engine using TF-IDF vectorization and cosine similarity to surface the top-N most relevant research documents.
+Content-based recommendation engine using TF-IDF vectorisation and cosine similarity to surface the top-N most relevant research documents.
 
 ---
 
-### 🎮 Python Quiz Game with Database
-> Python · SQLite · PostgreSQL
+## 💼 Experience
 
-Quiz application with full **CRUD database backend**, relational schema design, and score tracking using SQLite and PostgreSQL.
+### 🤖 AI & ML Intern — Edunet Foundation *(Remote, Jan–Apr 2025)*
+- Built a production-ready **AI-powered resume generator** using **FLAN-T5** with NLP-based semantic job description matching
+- Designed structured **prompt pipelines** using Python and OOP best practices for automated document generation
+- Deployed a **Streamlit web app** with automated PDF export; documented full pipeline for stakeholder review
+
+### 📊 Data Science Intern — TechMindz *(Onsite, Kerala, Jun–Sep 2023)*
+- Performed end-to-end **EDA and feature engineering** on structured datasets with 10,000+ records using Python and Pandas
+- Built and evaluated **classification models** using Scikit-learn; analysed precision, recall, and F1-score to select optimal models
+- Communicated findings through clear stakeholder reports
+
+### 🧑‍🏫 Python Tutor — Transeduverse *(Remote, Jan 2025–Present)*
+- Delivering structured training in **Python, OOP, and Data Structures** to 15+ students
+- Mentoring students on problem-solving and algorithmic thinking
 
 ---
 
@@ -122,14 +132,15 @@ Quiz application with full **CRUD database backend**, relational schema design, 
 - Designed a hybrid **Wide & Deep neural network** (TensorFlow/Keras) to classify Ethereum smart contract vulnerabilities
 - Achieved **89% accuracy** and **0.92 F1-score** with false positive rate below 4% on the IJCAI 2020 dataset
 - Built a full **ETL pipeline**: Solidity source → bytecode → opcode extraction → Word2Vec embeddings → model training
+- Containerised and published as a **multi-service Docker application** to Docker Hub
 
 ---
 
 ## 📜 Certifications
 
-- 🏅 **Python for Data Science** — NDZ Technologies *(Dec 2023)* | `TMZ/CRFCT/PDS23/804`
-- 🏅 **Introduction to Data Science** — Cisco
-- 🏅 **Career Essentials in Data Analysis** — Microsoft & LinkedIn *(Oct 2023)*
+- 🏅 **Business Etiquette** — TCS (Batch 04) · Score: **90%** · 2026
+- 🏅 **Python for Data Science** — NDZ Technologies *(Dec 2023)*
+- 🏅 **Personality Development Certificate** · 2024
 
 ---
 
